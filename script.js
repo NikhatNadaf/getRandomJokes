@@ -9,5 +9,7 @@ const getJokes=async()=>{
     para.innerText=data.joke;
 
 }
+
 btn.addEventListener("click",getJokes);
+
 getJokes();
